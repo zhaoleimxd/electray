@@ -1,0 +1,40 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "compounds": [
+        {
+            "name": "Background + Foreground",
+            "configurations": [
+                "Background",
+                "Foreground"
+            ],
+            "stopAll": true
+        }
+    ],
+    "configurations": [
+        {
+            "name": "Background",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "windows": {
+                "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron.cmd"
+            },
+            "args": [
+                "example",
+                "--remote-debugging-port=9222"
+            ],
+            "outputCapture": "std",
+            "console": "internalConsole",
+        },
+        {
+            "name": "Foreground",
+            "type": "chrome",
+            "request": "attach",
+            "port": 9222,
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}

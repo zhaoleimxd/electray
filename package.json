@@ -1,0 +1,40 @@
+{
+  "name": "electray",
+  "version": "1.0.0",
+  "description": "Full support for tray notify icon of windows shell on electron",
+  "keywords": [
+    "electron",
+    "electray",
+    "Shell_NotifyIcon",
+    "Windows Shell Notify Icon Tray",
+    "Tray Icon",
+    "Notify Icon"
+  ],
+  "directories": {
+    "example": "./example",
+    "lib": "./lib"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "type": "commonjs",
+  "types": "./lib/electray.d.ts",
+  "main": "./lib/electray.js",
+  "scripts": {
+    "test": "npx electron example"
+  },
+  "author": "zhaoleimxd",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/ffi-napi": "^4.0.7",
+    "@types/node": "^13.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhaoleimxd/electray.git"
+  },
+  "dependencies": {
+    "electron": "^11.5.0",
+    "ffi-napi": "^4.0.3"
+  }
+}
