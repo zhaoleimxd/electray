@@ -1,0 +1,7 @@
+If you wanna build or develop native add-on,
+You need to make sure you have these enviroments:
+1. NodeJS, version >= 10
+2. Typescript, you can install by 'npm install typescript -g'
+3. node-gyp, you can install by 'npm install node-gyp -g'
+4. Python, version >= 3.7
+5. Visual Studio 2019 (MSVC2019), or Windows build tools.

@@ -3,16 +3,38 @@
 	"tasks": [
 		{
 			"type": "typescript",
-			"tsconfig": "tsconfig.json",
+			"tsconfig": "tsconfig.electray.json",
 			"option": "watch",
 			"problemMatcher": [
 				"$tsc-watch"
 			],
 			"group": {
+				"kind": "build"
+			},
+			"label": "tsc: watch electray"
+		},
+		{
+			"type": "typescript",
+			"tsconfig": "tsconfig.example.json",
+			"option": "watch",
+			"problemMatcher": [
+				"$tsc-watch"
+			],
+			"group": {
+				"kind": "build"
+			},
+			"label": "tsc: watch example"
+		},
+		{
+			"label": "watch all",
+			"group": {
 				"kind": "build",
 				"isDefault": true
 			},
-			"label": "tsc: 监视 - tsconfig.json"
+			"dependsOn": [
+				"tsc: watch electray",
+				"tsc: watch example"
+			]
 		}
 	]
 }

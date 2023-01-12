@@ -1,0 +1,4 @@
+设置NIF_TIP标志位后，才能触发PopupOpen和PopupClose事件
+设置NIF_SHOWTIP标志位后，才会在鼠标移入托盘图标时显示Tip
+BalloonHide事件的触发机制未能明确
+

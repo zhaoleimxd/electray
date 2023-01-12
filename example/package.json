@@ -1,0 +1,12 @@
+{
+  "name": "electray-example",
+  "description": "",
+  "version": "1.0.0",
+  "author": "zhaoleimxd",
+  "license": "UNLICENSED",
+  "main": "example.js",
+  "scripts": {},
+  "repository": {},
+  "dependencies": {
+  }
+}
