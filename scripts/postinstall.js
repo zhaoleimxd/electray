@@ -39,7 +39,7 @@ function selectArch() {
         let rcStr = fs.readFileSync(rcPath, {
             encoding: `utf8`
         });
-        let pattern = /arch=(.+)\n/;
+        let pattern = /arch=(.+)/;
         if (pattern.test(rcStr)) {
             let ea = pattern.exec(rcStr);
             rcArch = ea[1];
