@@ -35,6 +35,12 @@
             "request": "attach",
             "port": 9222,
             "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Debug postinstall",
+            "program": "${workspaceFolder}/scripts/postinstall.js",
+            "request": "launch",
+            "type": "node"
         }
     ]
 }
