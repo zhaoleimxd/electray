@@ -1,5 +1,14 @@
+![npm version](https://img.shields.io/npm/v/electray)
+![npm bundle size](https://img.shields.io/bundlephobia/minzip/electray)
+![npm downloads](https://img.shields.io/npm/dt/electray)
+![GitHub last commit](https://img.shields.io/github/last-commit/zhaoleimxd/electray)
+ \
+![platform](https://img.shields.io/badge/Platform-Windows-brightgreen)
+![npm dev dependency version](https://img.shields.io/npm/dependency-version/electray/dev/electron)
+![node-current](https://img.shields.io/node/v/electray)
+
 # Electray
-Full support for tray notify icon of windows shell on electron
+Full support for `tray notify icon` of `Windows Shell` on `Electron`
 
 ## Installation
 You can install `Electray` using `npm`:
@@ -135,7 +144,7 @@ Icon use of notify icon tray.
 * `electron`
 
 ## Remarks
-`Electray` has pre-build both `ia32` and `x64` binaries of windows native Node.JS add-on module, it will auto detect the arch you need and copy 2 files during `postinstall`, If you got problems with arch, you can simplely re-install `Electray`.
+`Electray` has pre-build both `ia32` and `x64` binaries of `Windows` native Node.JS add-on module, it will auto detect the arch you need and copy 2 files during `postinstall`, If you got problems with arch, you can simplely re-install `Electray`.
 
 ## Links
 * [How to develop this package](./docs/how-to-develop.md)
