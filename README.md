@@ -19,7 +19,7 @@ npm install electray
 ## Example
 `Electray` is very simple to use:
 ### Typescript:
-```
+```typescript
 import * as electron from 'electron';
 import * as electray from 'electray';
 electron.app.on("ready", (event, launchInfo) => {
@@ -53,7 +53,7 @@ electron.app.on("window-all-closed", () => {
 ```
 
 ### Javascript:
-```
+```javascript
 const electron = require('electron');
 const electray = require('electray');
 electron.app.on("ready", (event, launchInfo) => {
