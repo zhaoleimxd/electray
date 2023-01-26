@@ -1,6 +1,6 @@
 {
   "name": "electray",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Full support for tray notify icon of windows shell on electron",
   "keywords": [
     "electron",
